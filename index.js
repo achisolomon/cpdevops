@@ -12,7 +12,7 @@ app.post('*', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-    res.send(`THE very VERY NEW Counter value is: ${counter}`)
+    res.send(`THE Achi Counter value is: ${counter}`)
 })
 
 app.listen(80)
